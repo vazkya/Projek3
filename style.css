@@ -1,0 +1,96 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.body {
+  background-color: #ccc;
+}
+.bg-fav{
+  background-color: blue;
+  color: white;
+}
+.navbar{
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  color: #fff;
+}
+
+ul{
+  float: right;
+}
+
+li{
+  list-style:  none;
+  display: inline-block;
+  margin-left: 10px;
+  align-items: center;
+
+}
+.container-flex {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container-grid {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "satu satu satu satu"
+    "dua tiga tiga empat"
+    "lima lima lima lima"
+    "enam enam tujuh tujuh";
+  gap: 5px;
+}
+.item1 {
+  grid-area: satu;
+  padding : 15px;
+}
+.item2 {
+  grid-area: dua;
+  padding: 5px;
+  background-color: #ffd5bf;
+  margin: 10px;
+}
+.item3 {
+  grid-area: tiga;
+  padding: 5px;
+  background-color: #ffd5bf;
+  margin: 10px;
+}
+.item4 {
+  grid-area: empat;
+  padding: 5px;
+  background-color: #ffd5bf;
+  margin: 10px;
+}
+.item5 {
+  grid-area: lima;
+  background-color: #ffd5bf;
+  margin: 10px;
+  
+}
+.item6 {
+  grid-area: enam;
+  background-color: #ffd5bf;
+  margin: 10px;
+}
+.item7 {
+  grid-area: tujuh;
+  background-color: #ffd5bf;
+  margin: 10px;
+}
+
+img{
+    width: 80px;
+    height: 100px;
+}
